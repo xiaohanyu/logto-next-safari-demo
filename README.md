@@ -7,8 +7,16 @@ Most of the code comes from
 package from logto official.
 
 The issue is, the app cannot work when user sign in on Safari 17, however, it
-works on Chrome, Edge, Firefox and lower version of Safari 15 (I am not sure
-whether Safari 16 works).
+works on Chrome, Edge, Firefox and lower version of Safari 15 (~I am not sure
+whether Safari 16 works~).
+
+---
+Tested on iOS 16 (simulator), it can sign in successfully, so the bug only happens 
+on Safari 17, evidence:
+
+<img width="561" alt="image" src="https://github.com/ppresume/community/assets/1164623/7c942949-0df0-47a4-bfeb-5f257c74e611">
+
+---
 
 It raise exceptions for both `npm run dev` and `npm run start`.
 
